@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to my-portfolio 👋</h1>
 
-### 🏠 [Homepage](#)
+### 🏠 [Homepage](https://loctai.netlify.app/)
 
 ## Install
 
@@ -18,7 +18,7 @@ npm run serve
 
 👤 **LocTai**
 
-* Website: #
+* Website: https://loctai.netlify.app/
 
 
 ## 🤝 Contributing
