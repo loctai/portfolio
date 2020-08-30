@@ -12,6 +12,7 @@
     <Header></Header>
     <Home></Home>
     <About></About>
+    <Experience></Experience>
     <Portfolio></Portfolio>
     <Skills></Skills>
     <Contact></Contact>
@@ -24,6 +25,7 @@ import GoTop from "@inotom/vue-go-top";
 import Header from "./components/header";
 import Home from "./components/home";
 import About from "./components/about";
+import Experience from "./components/experience";
 import Portfolio from "./components/portfolio";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
@@ -35,6 +37,7 @@ export default {
     Header,
     Home,
     About,
+    Experience,
     Portfolio,
     Skills,
     Contact,

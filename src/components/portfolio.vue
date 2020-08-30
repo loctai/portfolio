@@ -3,23 +3,23 @@
     <h1>My Projects</h1>
     <div class="card-deck">
       <CardComp
-        main="memory-game"
+        main="Binary Options Trading"
         desc=""
-        img_source="https://i.imgur.com/Ze5rpfr.jpg"
+        img_source="https://i.imgur.com/imGkt7t.jpg"
         weblink="#"
         gitlink="#"
       ></CardComp>
       <CardComp
-        main="Todone"
+        main="Cryptocurrency Wallet"
         desc=""
-        img_source="https://i.imgur.com/Ze5rpfr.jpg"
+        img_source="https://i.imgur.com/JnsS4tT.png"
         weblink="#"
         gitlink="#"
       ></CardComp>
       <CardComp
-        main="weather-app"
+        main="Cryptocurrency Wallet"
         desc=""
-        img_source="https://i.imgur.com/Ze5rpfr.jpg"
+        img_source="https://i.imgur.com/fwSX0Ev.png"
         weblink="#"
         gitlink="#"
       ></CardComp>
@@ -43,7 +43,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 60vh;
   .card-deck {
     display: flex;
     justify-content: center;

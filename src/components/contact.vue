@@ -63,7 +63,6 @@
     <h2 v-if="this.submitted">😀 Your form has been submitted</h2>
     <h1 style="text-align: center;">Let's get social</h1>
     <div class="social-links">
-      
       <a rel="noreferrer" href="https://github.com/taijoe">
         <img src="../assets/github-1.svg" height="75rem" alt="github" />
       </a>
@@ -91,10 +90,7 @@ export default {
     handleSubmit() {
       // Send data to the server
       this.$http
-        .post(
-          "https://formspree.io/xknqlbjz",
-          this.feedback
-        )
+        .post("https://formspree.io/xknqlbjz", this.feedback)
         .then(function(data) {
           console.log("Hi there!😁", data);
         });
@@ -111,7 +107,7 @@ $blue: #2257ea;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 1rem 10rem;
   .desc {
     text-align: center;

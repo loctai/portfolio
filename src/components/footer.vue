@@ -1,9 +1,8 @@
 <template>
   <div id="footer">
-     Made with 💙 by Me
+    Made with 💙 by Me
   </div>
 </template>
-
 <script>
 export default {
   name: "Footer"

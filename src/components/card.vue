@@ -7,11 +7,12 @@
         style="border-radius: 6px 6px 0 0"
         width="300px"
       />
+      
     </div>
     <div class="card-text">
       <h2>{{ main }}</h2>
       <h5 id="description">{{ desc }}</h5>
-      <div class="card-btns">
+      <div class="card-btns" style='display:none'>
         <button class="card-btns-items" style="background: #333333 ">
           <a
             rel="noreferrer"
@@ -39,7 +40,8 @@ export default {
     gitlink: String,
     weblink: String,
     repo: String
-  }
+  },
+  
 };
 </script>
 

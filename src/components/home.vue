@@ -2,14 +2,8 @@
   <div id="home">
     <div class="text-area">
       <span>
-        <h1>
-          LOC VAN TAI
-          
-        </h1>
-  
-        <h3>
-         Web Developer
-        </h3>
+        <h1>LOC VAN TAI</h1>
+        <h3>Web Developer</h3>
       </span>
       <button style="background: #2257ea">
         <a href="#projects">See my work</a>
@@ -36,7 +30,7 @@ export default {
   align-items: center;
   overflow: hidden;
   padding: 0 3rem;
-  min-height: 100vh;
+  min-height: 60vh;
   h1 {
     font-weight: 900;
     margin-bottom: 0px;

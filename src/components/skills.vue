@@ -25,20 +25,6 @@
       />
       <img
         alt
-        title="C"
-        class="skill-icons"
-        src="../assets/C.svg"
-        height="75rem"
-      />
-      <img
-        alt
-        title="C++"
-        class="skill-icons"
-        src="../assets/cpp.svg"
-        height="75rem"
-      />
-      <img
-        alt
         title="Vue.js"
         class="skill-icons"
         src="../assets/vue-9.svg"
@@ -46,30 +32,16 @@
       />
       <img
         alt
+        title="React.js"
+        class="skill-icons"
+        src="../assets/react.svg"
+        height="75rem"
+      />
+      <img
+        alt
         title="Python"
         class="skill-icons"
         src="../assets/python-4.svg"
-        height="75rem"
-      />
-      <img
-        alt
-        title="Javascript"
-        class="skill-icons"
-        src="../assets/javascript.svg"
-        height="75rem"
-      />
-      <img
-        alt
-        title="sass/scss"
-        class="skill-icons"
-        src="../assets/sass-1.svg"
-        height="75rem"
-      />
-      <img
-        alt
-        title="Django"
-        class="skill-icons"
-        src="../assets/django-community.svg"
         height="75rem"
       />
       <img
@@ -102,23 +74,9 @@
       />
       <img
         alt
-        title="Adobe XD"
+        title="MongoDB"
         class="skill-icons"
-        src="../assets/adobe-xd-1.svg"
-        height="75rem"
-      />
-      <img
-        alt
-        title="Adobe Illustrator"
-        class="skill-icons"
-        src="../assets/adobe-illustrator-cc.svg"
-        height="75rem"
-      />
-      <img
-        alt
-        title="Figma"
-        class="skill-icons"
-        src="../assets/figma-1.svg"
+        src="../assets/mongo.svg"
         height="75rem"
       />
     </div>
@@ -133,7 +91,7 @@ export default {
 
 <style lang="scss" scoped>
 #skills {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   padding: 1rem 10rem;

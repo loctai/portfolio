@@ -1,13 +1,7 @@
 <template>
   <div id="about">
-    <h1>
-     Hi, I'm a Full Stack Web / App Developer.
-      <span id="hi">👋</span>
-    </h1>
-    <p>
-       For more than 2 years, I’ve worked on various projects involving both front-end and back-end development.
-    </p>
-
+    <h1>Hi, I'm a Full Stack Web / App Developer.<span id="hi">👋</span></h1>
+    <p>For more than 2 years, I’ve worked on various projects involving both FrontEnd and BackEnd Development</p>
     <p>
       got any questions?
       <a href="#contact">Contact me.</a>
@@ -27,11 +21,11 @@ $blue: #2257ea;
 #about {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-size: 1.4rem;
   padding: 1rem 10rem;
-  min-height: 100vh;
+  min-height: 60vh;
   p {
     text-align: center;
     a {
