@@ -5,9 +5,14 @@
         <h1>LOC VAN TAI</h1>
         <h3>Web Developer</h3>
       </span>
-      <button style="background: #2257ea">
+     <div class="btn_h">
+       <button style="background: #2257ea">
         <a href="#projects">See my work</a>
       </button>
+      <button style="background: #2257ea">
+        <a href="/cv.pdf" target="_blank">Resume</a>
+      </button>
+     </div>
     </div>
     <img
       src="../assets/undraw_web_developer_p3e5.svg"
@@ -37,6 +42,12 @@ export default {
   }
   h3 {
     margin-top: 0px;
+  }
+  .btn_h{
+    display: flex;
+    button{
+      margin: 5px;
+    }
   }
   .text-area {
     display: flex;

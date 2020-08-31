@@ -1,6 +1,6 @@
 <template>
   <div id="contact">
-    <h1>Get in touch</h1>
+    <!-- <h1>Get in touch</h1>
     <h2 class="desc">
       If you wanna get in touch, talk to me about a project collaboration or
       just say hi, fill up the awesome form below or send an email to
@@ -60,15 +60,15 @@
         Submit
       </button>
     </form>
-    <h2 v-if="this.submitted">😀 Your form has been submitted</h2>
+    <h2 v-if="this.submitted">😀 Your form has been submitted</h2> -->
     <h1 style="text-align: center;">Let's get social</h1>
     <div class="social-links">
       <a rel="noreferrer" href="https://github.com/taijoe">
         <img src="../assets/github-1.svg" height="75rem" alt="github" />
       </a>
-      <a rel="noreferrer" href="https://www.facebook.com/tai.joe.127/">
+      <!-- <a rel="noreferrer" href="https://www.facebook.com/tai.joe.127/">
         <img src="../assets/facebook-3.svg" height="75rem" alt="facebook" />
-      </a>
+      </a> -->
     </div>
   </div>
 </template>
